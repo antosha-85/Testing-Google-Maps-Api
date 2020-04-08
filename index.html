@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <h1>My google Map</h1>
+    <div id="map"></div>
+    <script>
+        function initMap () {
+            //Map options
+            const options = {
+                zoom: 12,
+                center: {lat: 51.0447, lng: -114.0719}
+            }
+            // New map
+            const map = new google.maps.Map(document.getElementById('map'), options);
+
+            //New marker
+            const marker = new google.maps.Marker({position: {lat: 	51.046494, lng: -114.057732}, map:map})
+        }
+    </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRozQ2sLZEIdcHfcmRFKjX9mA8kVHonlI&callback=initMap">
     </script>
 </body>
 </html>
