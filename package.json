@@ -1,0 +1,22 @@
+{
+  "name": "googlemapapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antosha-85/Testing_after_bootcamp.git"
+  },
+  "author": "Anton Smirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antosha-85/Testing_after_bootcamp/issues"
+  },
+  "homepage": "https://github.com/antosha-85/Testing_after_bootcamp#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
